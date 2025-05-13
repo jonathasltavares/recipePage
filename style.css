@@ -76,6 +76,23 @@ article > img {
   flex-direction: column;
   gap: 1.5rem;
 }
+ul, ol {
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+ul li, ol li {
+  padding-left: 1rem;
+  text-indent: 0;
+}
+ol li::marker {
+  color: var(--brown-800);
+  font-weight: 600;
+}
+ul li::marker {
+  color: var(--brown-800);
+  font-weight: 600;
+}
 details {
   background-color: var(--rose-50);
   border-radius: 12px;
