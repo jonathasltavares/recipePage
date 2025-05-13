@@ -92,6 +92,7 @@ details>summary {
 section{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
 }
 h2{
     font-family: "Young Serif", serif;
